@@ -1,0 +1,7 @@
+mysql 8.0.26
+
+mysql -uroot
+
+CREATE DATABASE cardb;
+CREATE USER 'cardatabase'@'localhost' identified by 'cardatabase';
+GRANT ALL ON *.* to 'cardatabase'@'localhost'; 
